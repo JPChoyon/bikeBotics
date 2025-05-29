@@ -38,7 +38,6 @@ const services = [
   { name: "Accessories", href: "/accessories" },
 ];
 
-
 const Navbar = () => {
   const pathname = usePathname();
   const auth = useAuth();
@@ -47,8 +46,8 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-30">
-      <div className="container mx-auto px-4 md:px-0 flex justify-between items-center">
+    <nav className="bg-white fixed top-0 left-0 w-full z-50 md:backdrop-blur-xs md:bg-white/20 md:dark:bg-gray-900/20   dark:border-gray-700">
+      <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2 p-0">
           <Image src="/images/logo.png" alt="Logo" width={120} height={120} />
         </Link>
@@ -72,7 +71,7 @@ const Navbar = () => {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="dark:bg-[#101828]">
+                <NavigationMenuTrigger className="dark:bg-[#06080B] hover:focus:none bg-[#858585] hover:bg-[#858585] dark:hover:bg-[#06080B]">
                   All Services
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="flex flex-col min-w-[200px] p-4">

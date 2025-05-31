@@ -22,7 +22,7 @@ export default function Footer() {
         {/* Header */}
         <div className="md:flex md:items-center md:justify-between">
           <h1 className="text-xl font-semibold tracking-tight md:mx-3 xl:text-2xl">
-            Subscribe to our newsletter for <span className="text-primary">tasty updates 🍔</span>
+            Subscribe to our newsletter for <span className="text-primary">any updates </span>
           </h1>
 
           <div className="mt-6 md:mx-3 md:mt-0">
@@ -90,13 +90,13 @@ export default function Footer() {
             <p className="font-semibold">Categories</p>
             <div className="mt-5 space-y-2">
               <a href="#" className="block text-gray-300 hover:underline hover:text-primary">
-                Street Food
+                Bike Servicing
               </a>
               <a href="#" className="block text-gray-300 hover:underline hover:text-primary">
-                Fine Dining
+                Accessories
               </a>
               <a href="#" className="block text-gray-300 hover:underline hover:text-primary">
-                Cafés & Desserts
+                Other
               </a>
             </div>
           </div>
@@ -126,14 +126,14 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between sm:flex-row">
           <div className="">
             <Image
-              src="/image/logo/🦆 icon _dish spoon knife_.png"
+              src="/images/logo.png"
               height={80}
               width={80}
               alt="logo icon"
             />
-            <span className=" text-lg font-mono">Rate My Bite</span>
+            <span className=" text-lg font-mono">Bike Botics</span>
           </div>
-          <p className=" text-sm text-gray-400 sm:mt-0">© 2025 Food Review. All rights reserved.</p>
+          <p className=" text-sm text-gray-400 sm:mt-0">© 2025 BikeBotics. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -3,9 +3,9 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
-import { removeAccessToken } from "@/lib/auth";
-import useAuthCheck from "@/hooks/useAuthCheck";
 import { toast } from "sonner";
+import useAuthCheck from "../hooks/useAuthCheck";
+import { removeAccessToken } from "../lib/auth";
 
 export default function AuthButton() {
   const { isLoggedIn, user, isLoading } = useAuthCheck();

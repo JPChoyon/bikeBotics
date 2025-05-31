@@ -32,8 +32,8 @@ export default function Banner() {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-4">
               Precision Bike Servicing
             </h1>
-            <p className=" w-2xl   tracking-tight mb-4">
-              BikeBotics is not just a repair shop — it's your personal bike
+            <p className=" md:w-2xl   tracking-tight mb-4">
+              BikeBotics is not just a repair shop — it&apos;s your personal bike
               performance lab. Ride smarter. Ride longer. Ride with BikeBotics.
             </p>
 
